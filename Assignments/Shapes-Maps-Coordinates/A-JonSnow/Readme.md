@@ -10,3 +10,11 @@
 What a Cholera Outbreak can Teach us about Homeland Security." https://medium.com/homeland-security/looking-beyond-the-pump-handle-dc56217f8e32
 
 See an earlier solution of this assignment in the public directory Examples/Shapes-Maps-Coordinates!
+
+## Create conda environment for the notebooks
+
+Normally we start with `conda init`, but in Kooplex's docker container it does not work. Instead 
+```bash
+. /opt/conda/bin/activate
+conda create -n datavis_shapesmaps --yes --file requirements.txt
+```

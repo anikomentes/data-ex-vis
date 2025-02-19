@@ -1,0 +1,9 @@
+scipy
+pandas
+numpy
+ipykernel
+matplotlib
+opencv
+python-dotenv
+sklearn
+skimage

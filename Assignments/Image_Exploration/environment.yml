@@ -1,0 +1,14 @@
+name:  datavis_image_exp
+channels:
+ - defaults
+ - conda-forge
+dependencies:
+ - scipy
+ - pandas
+ - numpy
+ - ipykernel
+ - matplotlib
+ - opencv
+ - python-dotenv
+ - scikit-learn
+ - scikit-image
