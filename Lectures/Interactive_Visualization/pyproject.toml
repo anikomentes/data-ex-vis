@@ -1,0 +1,39 @@
+ [tool.poetry]
+name = "streaml_app"
+version = "0.1.0"
+description = "Streamlit app"
+authors = ["jegesm <david.visontai@ttk.elte.hu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4"
+streamlit  = ">1.0"
+pandas = "<2.0"
+numpy = "^1.26.4"
+matplotlib = "^3.8.4"
+opencv-python = "^4.9.0.80"
+ipykernel = "^6.29.5"
+dotenv = "^0.9.9"
+bokeh = ">=3.5.0"
+dash = "2.18.0"
+dash-core-components = "^2.0.0"
+dash-html-components = "^2.0.0"
+sketch = "^0.5.2"
+nbformat = ">=4.2.0"
+jupyterlab-dash = "^0.1.0a3"
+holoviews = "^1.20.2"
+panel = "^1.6.2"
+geoviews = "^1.14.0"
+hvplot = "^0.11.2"
+colorcet = "^3.1.0"
+datashader = "^0.17.0"
+bokeh-sampledata = "^2024.2"
+dash-chart-editor = "^0.0.1a5"
+multiprocess = "^0.70.17"
+selenium = "^4.30.0"
+flask = "<3.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
