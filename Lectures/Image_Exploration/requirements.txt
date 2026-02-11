@@ -3,7 +3,7 @@ pandas
 numpy
 ipykernel
 matplotlib
-opencv
+opencv-python
 python-dotenv
-scikit-klearn
+scikit-learn
 scikit-image
