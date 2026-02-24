@@ -1,0 +1,12 @@
+pandas
+geopandas==0.14.4
+shapely
+folium
+numpy
+ipykernel
+matplotlib
+ipywidgets
+seaborn
+scipy
+python-dotenv
+

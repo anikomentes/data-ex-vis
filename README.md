@@ -7,7 +7,7 @@ In this course we intend to introduce **state of the art tools and methods** for
 
 There is a useful tutorial into python and some data transformation/analysis methods http://bokae.web.elte.hu/numerical_methods.html), which gives a wide background knowledge, that comes handy. Also for those who prefer the language R there are several tutorials.
 
-During the course every sample code will be shown in **jupyter notebooks**, which can be accessed on the [K8plex Edu platform](https://k8plex-edu.elte.hu) and in this Github repository.
+During the course every sample code will be shown in **jupyter notebooks**, which can be accessed on the [K8plex Edu platform](https://k8plex-edu.elte.hu) and in this [Github repository](github.com/sdam-elte/data-ex-vis).
 
 The course is held in the **North Building** in computer lab **5.56** every **Wednesday between 12:15-13:45**.
   
@@ -19,27 +19,26 @@ Type: 	Lecture + Practice <br>
 Credit points: 	6 <br>
 Prerequisites: 	programming in either **python**, **R** - using Jupyter notebooks or RMarkdown<br>
 
-Most of the occasions will begin with an approximately a twenty minute of introduction into the current topic. After that everyone can work on the assignments and the consultants will be available for help with the any related problems and questions. For those who lack experience in either programming or data analysis it is highly recommended to attend the lecture and practice sessions. There are many tricks and tips that can be learned much quicker from personal discussions.
+Most of the occasions will begin with an approximately a 30-60 minutes of introduction into the current topic. After that everyone can work on the assignments and the consultants will be available for help with the any related problems and questions. For those who lack experience in either programming or data analysis it is highly recommended to attend the lecture and practice sessions. There are many tricks and tips that can be learned much quicker from personal discussions.
 
 ### The schedule of the course 
 1,  11.02.2026. **[Introduction to K8plex Edu](https://k8plex-edu.elte.hu/)**, **[Jupyter Notebooks](https://jupyter.org/)**, **Requirements for the course**,<br>
-                 **[Datacleaning, and Filtering, Reproducibility](Lectures/Datacleaning-reproducibility)**<br>
-2,  18.02.2026. **[Image exploration](Lectures/Image_Exploration)** <br>
+                 **[Image exploration](Lectures/Image_Exploration)**<br>
+2,  18.02.2026. **[Maps, shapes, coordinates](Lectures/Shapes-Maps-Coordinates)** <br>
 3,  25.02.2026. **[Interactive Visualization](Lectures/Interactive_Visualization)** <br>
-4,  04.03.2026. **[Maps, shapes, coordinates](Lectures/Shapes-Maps-Coordinates)**<br>
+4,  04.03.2026. **[Datacleaning, and Filtering, Reproducibility](Lectures/Datacleaning-reproducibility)**<br>
 5,  11.03.2026. **[Network exploration](Lectures/Networks)** <br>
 6,  18.03.2026. **[Natural Language Processing](Lectures/NLP)**, **[REST services](Lectures/HTTP-REST-API)**, MCP servers, Vibe coding/exploration <br>
-7,  25.03.2026. (Orsolya Pipek) **TBA** <br>
-8,  08.04.2026.  (Anikó Mentes) **[SQL queries](Lectures/SQL)** Basics of SQL, databases, tutorial on the Basketball database<br>
-9,  15.04.2026. (Anikó Mentes) **[SQL queries](Lectures/SQL)**
+7,  25.03.2026. 🎓 (Orsolya Pipek) **TBA** <br>
+8,  08.04.2026. 🎓 (Anikó Mentes) **[SQL queries](Lectures/SQL)** Basics of SQL, databases, tutorial on the Basketball database<br>
+9,  15.04.2026. 🎓 (Anikó Mentes) **[SQL queries](Lectures/SQL)**
 Hands-on tutorial on a scientific database CoVeo or Sewage (working in groups of two), AI assisted exploration
  <br>
-10, 22.04.2026. (Orsolya Pipek) **TBA**<br>
-11, 29.04.2026. (Csaba Kiss) **TBA**<br>
-12, 06.05.2026. (József Stéger) **[Timeseries analysis](Lectures/Timeseries/02-Timeseries.pdf)** <br>
+10, 22.04.2026. 🎓 (Orsolya Pipek) **TBA** (Bioinformatics)<br>
+11, 29.04.2026. 🎓 (Csaba Kiss) **TBA ?Single-cell genomics? ** (Bioinformatics) <br>
+12, 06.05.2026. 🎓 (József Stéger) **[Timeseries analysis](Lectures/Timeseries/02-Timeseries.pdf)** <br>
 13, 13.05.2026. **Workshop and Student demonstrations** <br>
 
-<!-- **[NoSQL - Elasticsearch and Kibana, GraphQL](Lectures/L-NoSQL-ES)** -->
 
 ### Covered topics
 
@@ -66,6 +65,7 @@ Hands-on tutorial on a scientific database CoVeo or Sewage (working in groups of
 3. SQL queries
    * **a)** **[NBA database](Assignments/SQL-A-Basketball)** NBA 2008-2009 season - HTML - Dávid Visontai
    * **b)** **[Biological database](Assignments/SQL-B-Coveo)** Analysis of SARS-COV-2 mutation database - HTML - Anikó Mentes
+   * **c)** **[Sewage database](Assignments/SQL-C-Sewage)** Analysis of sewage data collected during a 3 year interval from 5 different sites - HTML - Anikó Mentes
   
 4. Interactive Visualization
    * **a) [ATLO.info reproduction](Assignments/InteractiveVisualizations)**  - HTML or Hosted App - Krisztián Papp
@@ -73,46 +73,47 @@ Hands-on tutorial on a scientific database CoVeo or Sewage (working in groups of
 
 5. Application
    * **a) [REST API](Assignments/HTTP-REST-API)** - (REST service/API) - Dávid Visontai
-   * **b) **
+   * **b) TBA**
 6. **[Network exploration](Assignments/Networks)** - HTML - Dávid Visontai
 7. **[Data extraction from images](Assignments/Image_Exploration)** - HTML - József Stéger
 8. **[Natural Language Processing on tweets](Assignments/NLP)** - HTML - !!! Ex 7. and 8. is optional. - Eszter Bokányi
 
-You have to submit **8 assignment** (choose one from each topic)
+You have to submit **8 assignments** (choose one from each topic)
 All assigments should be converted into HTML unless stated otherwise!
 
-The submitted results should look like a **report**, which can be generated from the notebooks. This will be explained on the [lecture](1-createreport). All figures should have *labels*, *title*, each exercise should end with a descriptive *conclusion* and explanatory comments should be inserted into the code. These are **must have features** of a work that is intended for presentation.
+The submitted results should look like a **report** communicating results for a layman, which can be generated from the notebooks. This will be explained on the [lecture](HowToSubmitAnAssignment.md). All figures should have *labels*, *title*, each exercise should end with a descriptive *conclusion* and explanatory comments should be inserted into the code. These are **must have features** of a work that is intended for presentation.
 
 <span id="deadline"></span>
 ### (Final) Submission deadline
 The assignments/projects will be released in the first couple of weeks, which you have to submit after the end of the course **17th June 1PM (this is the last deadline)**. Each submitted assignment will be corrected and a feedback will be given. After that you may resubmit your assignment **once more** but before the final deadline.
-
-### Where to work on the assignments?
-https://k8plex-edu.elte.hu/ is where the notebooks will be handed out. It is available for all students with a valid **Neptun** or **caesar** account. Once you launch your environment you will find a folder with the course material. The notebooks will be available in this Github repository as well.
-We will explain how to use the portal on the first lecture.
-In case there is any problem with the portal you can run a notebook server locally on any other computer and upload your work later.
 
 ### Grading
 
 Each assignment will be corrected after submission and a maximum of **20 points** will be given for it. **10** for all the **completed tasks**, **10** for the **quality** of the submitted report (look, clarity and comments). 
 You can get extra points for passive and active roles:
 
-* 10 pts for attending a *special* lecture (given by either Aniko Mentes, Orsolya Pipek, Csaba Kiss and Jozsef Steger)
+* 10 pts for attending a *special* 🎓 lecture (given by either Aniko Mentes, Orsolya Pipek, Csaba Kiss and Jozsef Steger)
+* 10 pts for attending The Workshop
 * 20 pts (only once) for presenting the solution for one of the assignments (all tasks completed, with explanation, not longer than 10m)
-* 20 pts for attending The Workshop
+
   
 The final grades will be given according to the following point system:<br>
-0 - 70: failed<br>
-71 - 90: 2<br>
-91 - 120: 3<br>
-121 - 159: 4<br>
-160 - : 5<br>
+0 - 80: failed<br>
+81 - 100: 2<br>
+101 - 120: 3<br>
+121 - 149: 4<br>
+150 - : 5<br>
+
+### Where to work on the assignments?
+https://k8plex-edu.elte.hu/ is where the notebooks will be handed out. It is available for all students with a valid **Neptun** or **caesar** account. Once you launch your environment you will find a folder with the course material. The notebooks will be available in this Github repository as well.
+We will explain how to use the portal on the first lecture.
+In case there is any problem with the portal you can run a notebook server locally on any other computer and upload your work later.
 
 ### Folder structure of the working environment
 
-* Assignments will be visible in `/v/courses/dataexvis.assignments`
-* Example Datasets will be in the `/v/courses/dataexvis.public/Datasets` directory you will find datasets, that you can work with.
-* Other lecture materials will be in `/v/courses/dataexvis.public/<lecture_name>` and on this github page
+* Assignments will be visible in `/v/courses/2026-dataexplorationandvisualization2026.assignments`
+* Example Datasets will be in the `/v/courses/2026-dataexplorationandvisualization2026.public/Datasets` directory you will find datasets, that you can work with.
+* Other lecture materials will be in `/v/courses/2026-dataexplorationandvisualization2026.public/<lecture_name>` and on this github page
 
 ### Learning materials
 * Python tutorial: http://bokae.web.elte.hu/numerical_methods.html (translated from the BSc course "numerical methods in physics I" by Eszter Bokányi, work in progress )

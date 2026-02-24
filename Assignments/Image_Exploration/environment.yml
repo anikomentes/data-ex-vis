@@ -12,3 +12,4 @@ dependencies:
  - python-dotenv
  - scikit-learn
  - scikit-image
+ - ipywidgets

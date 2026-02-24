@@ -6,7 +6,7 @@ Jupyter and R notebooks, and R markdowns can be converted into these formats
 ## 1. Convert it to an HTML file
 jupyter offers an easy way to convert a notebook into a (semi)static HTML file:
 ``` bash
-jupyter nbconvert HowToSubmitAnAssignment.ipynb
+jupyter nbconvert --execute  HowToSubmitAnAssignment.ipynb
 ```
 [This Tutorialspoint site](https://www.tutorialspoint.com/jupyter/jupyter_converting_notebooks.htm) will give you more tips about conversions.
 
