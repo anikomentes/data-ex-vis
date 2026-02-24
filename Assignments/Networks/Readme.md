@@ -1,6 +1,18 @@
 # Assignment: Image exploration
 
-### Choose *A* or *B*
+### Choose *A* or *B* 
+
+## Use existing virtual environment for the notebooks
+There is an already installed uv environment for this topic.
+In order to use it in Jupyter Notebook/Lab, you need to add it as a kernel. To do this, run the following command:
+```# activate the environment
+source /v/courses/2026-dataexplorationandvisualization2026.public/uv_envs/<name_of_the_env>/bin/activate
+# install the kernel
+python -m ipykernel install --user --name=<name_of_the_env> --display-name "Python (<name_of_the_env>)"
+```
+After running the above command, you should see the new kernel option "Python (<name_of_the_env>)" when you create a new notebook in Jupyter Notebook/Lab. You can select this kernel to use the virtual environment for your image exploration tasks.
+You might have to reload the page first to see the new kernel option.
+
 
 ## Create virtual environment with `uv`
 Create an environment first:
