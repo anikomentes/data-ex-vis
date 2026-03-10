@@ -26,9 +26,9 @@ Most of the occasions will begin with an approximately a 30-60 minutes of introd
                  **[Image exploration](Lectures/Image_Exploration)**<br>
 2,  18.02.2026. **[Maps, shapes, coordinates](Lectures/Shapes-Maps-Coordinates)** <br>
 3,  25.02.2026. **[Interactive Visualization](Lectures/Interactive_Visualization)** <br>
-4,  04.03.2026. **[Datacleaning, and Filtering, Reproducibility](Lectures/Datacleaning-reproducibility)**<br>
-5,  11.03.2026. **[Network exploration](Lectures/Networks)** <br>
-6,  18.03.2026. **[Natural Language Processing](Lectures/NLP)**, **[REST services](Lectures/HTTP-REST-API)**, MCP servers, Vibe coding/exploration <br>
+4,  04.03.2026. **[Network exploration](Lectures/Networks)**<br>
+5,  11.03.2026. **[Natural Language Processing](Lectures/NLP)** <br>
+6,  18.03.2026. **[Datacleaning, and Filtering, Reproducibility](Lectures/Datacleaning-reproducibility)**, **[REST services](Lectures/HTTP-REST-API)**, MCP servers, Vibe coding/exploration <br>
 7,  25.03.2026. 🎓 (Orsolya Pipek) **TBA** <br>
 8,  08.04.2026. 🎓 (Anikó Mentes) **[SQL queries](Lectures/SQL)** Basics of SQL, databases, tutorial on the Basketball database<br>
 9,  15.04.2026. 🎓 (Anikó Mentes) **[SQL queries](Lectures/SQL)**
