@@ -23,10 +23,10 @@ Most of the occasions will begin with an approximately a 30-60 minutes of introd
 
 ### The schedule of the course 
 1,  11.02.2026. **[Introduction to K8plex Edu](https://k8plex-edu.elte.hu/)**, **[Jupyter Notebooks](https://jupyter.org/)**, **Requirements for the course**,<br>
-                 **[Image exploration](Lectures/Image_Exploration)**<br>
+                 **[Image exploration](Lectures/Image_Exploration)** <br>
 2,  18.02.2026. **[Maps, shapes, coordinates](Lectures/Shapes-Maps-Coordinates)** <br>
 3,  25.02.2026. **[Interactive Visualization](Lectures/Interactive_Visualization)** <br>
-4,  04.03.2026. **[Network exploration](Lectures/Networks)**<br>
+4,  04.03.2026. **[Network exploration](Lectures/Networks)** <br>
 5,  11.03.2026. **[Natural Language Processing](Lectures/NLP)** <br>
 6,  18.03.2026. **[Datacleaning, and Filtering, Reproducibility](Lectures/Datacleaning-reproducibility)**, **[REST services](Lectures/HTTP-REST-API)**, MCP servers, Vibe coding/exploration <br>
 7,  25.03.2026. 🎓 (Orsolya Pipek) **TBA** <br>
@@ -76,7 +76,7 @@ Hands-on tutorial on a scientific database CoVeo or Sewage (working in groups of
    * **b) TBA**
 6. **[Network exploration](Assignments/Networks)** - HTML - Dávid Visontai
 7. **[Data extraction from images](Assignments/Image_Exploration)** - HTML - József Stéger
-8. **[Natural Language Processing on tweets](Assignments/NLP)** - HTML - !!! Ex 7. and 8. is optional. - Eszter Bokányi
+8. **[Natural Language Processing on tweets](Assignments/NLP)** - HTML - Eszter Bokányi
 
 You have to submit **8 assignments** (choose one from each topic)
 All assigments should be converted into HTML unless stated otherwise!
