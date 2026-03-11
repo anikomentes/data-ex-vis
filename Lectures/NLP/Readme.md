@@ -1,20 +1,50 @@
-## Conda enviroment
+## Natural Language Processing (NLP)
 
-There is an already prepared environment this time, which requires still one extra step from you to able to use it in notebooks.
-
-This is how it was created:
-```bash
-conda create -p /v/courses/2025-202425adatexplorcisvizualizci.public/env_nlp --yes --file requirements.txt
-. /opt/conda/bin/activate
-conda activate /v/courses/2025-202425adatexplorcisvizualizci.public/env_nlp
+There is an already installed uv environment for this topic.
+In order to use it in Jupyter Notebook/Lab, you need to add it as a kernel. To do this, run the following command:
+```# activate the environment
+source /v/courses/2026-dataexplorationandvisualization2026.public/uv_envs/dataexp_nlp/bin/activate
+# install the kernel
+python -m ipykernel install --user --name=dataexp_nlp --display-name "Python (dataexp_nlp)"
 ```
+After running the above command, you should see the new kernel option "Python (dataexp_nlp)" when you create a new notebook in Jupyter Notebook/Lab. You can select this kernel to use the virtual environment for your image exploration tasks.
+You might have to reload the page first to see the new kernel option.
 
-You will still need to install the kernel descriptor to see it in the conda kernel list:
+# Create virtual environment with `uv`
+Create an environment first:
+```
+uv venv
+```
+Then install the required packages using a 'requirements.txt' file:
+```
+uv pip install -r requirements.txt
+``` 
+
+You need to have the 'ipykernel' package installed, which is included in the 'requirements.txt' file. This package allows you to use the virtual environment as a kernel in Jupyter Notebook.
+To add the virtual environment as a kernel in Jupyter Notebook/Lab, run the following command:
+```
+# activate the environment
+source .venv/bin/activate
+# install the kernel
+python -m ipykernel install --user --name=dataexp_nlp --display-name "Python (dataexp_nlp)"
+```
+After running the above command, you should see the new kernel option "Python (dataexp_nlp)" when you create a new notebook in Jupyter Notebook/Lab. You can select this kernel to use the virtual environment for your image exploration tasks.
+You might have to reload the page first to see the new kernel option.
+
+## Create conda environment for the notebooks
+
+Normally we start with `conda init`, but in Kooplex's docker container it does not work. Instead 
 ```bash
-python -m ipykernel install --user --name=dataexp_NLP
+. /opt/conda/bin/activate
+conda create -n datavis_nlp --yes --file requirements.txt
 ```
 
 ### Some links for further reading
 
 * https://www.analyticsvidhya.com/blog/2021/05/topic-modelling-in-natural-language-processing/
 
+## Recommended datasets for NLP
+
+* NLP Technique: https://github.com/KeithGalli/pycon2020/tree/master
+* Datasets: https://github.com/shaypal5/awesome-twitter-data
+* Dataset for Sentiment analysis: https://www.kaggle.com/datasets/kazanova/sentiment140

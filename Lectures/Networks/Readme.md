@@ -1,4 +1,4 @@
-## Conda enviroment
+## Networks
 
 There is an already installed uv environment for this topic.
 In order to use it in Jupyter Notebook/Lab, you need to add it as a kernel. To do this, run the following command:
@@ -36,5 +36,5 @@ You might have to reload the page first to see the new kernel option.
 Normally we start with `conda init`, but in Kooplex's docker container it does not work. Instead 
 ```bash
 . /opt/conda/bin/activate
-conda create -n datavis_shapesmaps --yes --file requirements.txt
+conda create -n datavis_networks --yes --file requirements.txt
 ```

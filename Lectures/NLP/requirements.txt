@@ -11,3 +11,5 @@ textblob
 ipywidgets>=7.0.0
 plotly==5.22.0
 nbformat>=4.2.0
+wordcloud
+cufflinks
