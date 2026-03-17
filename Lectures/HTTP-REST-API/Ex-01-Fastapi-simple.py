@@ -3,7 +3,13 @@ from typing import List, Optional
 import pandas as pd
 import os 
 import uvicorn
+import logging
 
+logging.basicConfig(
+    filename='/tmp//app.log', 
+    level=logging.WARNING
+)
+logger = logging.getLogger(__name__)
 
 # Initialize FastAPI app
 app = FastAPI()
@@ -14,10 +20,14 @@ data = pd.read_csv("medical_data.csv")
 # Convert data to DataFrame
 df = pd.DataFrame(data)
 
-# Get SERVERNAME from environment variable
-SERVERNAME = os.environ.get("SERVERNAME", "localhost")
-# Get REPORT_URL from environment variable
-REPORT_URL = os.environ.get("REPORT_URL", "")
+# Necessary variables in the Kooplex environment
+REPORT_URL = os.getenv("REPORT_URL")
+REPORT_PORT = int(os.getenv("REPORT_PORT"))
+HOSTNAME = os.getenv("HOSTNAME")
+SERVERNAME = os.getenv("SERVERNAME")
+server_url=f"https://{SERVERNAME}/{REPORT_URL}"
+
+print(f'You will be able to access your report at {server_url}')
 
 @app.get(os.path.join("/", REPORT_URL, "health-check"))
 def health_check():
@@ -72,7 +82,6 @@ def list_resources():
         }
     }
 
-REPORT_PORT = os.environ.get("REPORT_PORT", 9000)
 
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=REPORT_PORT)
