@@ -1,0 +1,16 @@
+pandas
+numpy==1.26.4
+ipykernel
+matplotlib
+python-dotenv
+scikit-learn
+nltk
+regex
+spacy
+seaborn
+textblob
+ipywidgets>=7.0.0
+plotly==5.22.0
+nbformat>=4.2.0
+wordcloud
+cufflinks
